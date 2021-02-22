@@ -150,10 +150,10 @@ if bor_mahsulotlar:
     for mahsulot in bor_mahsulotlar:
         print(mahsulot)
         
-#son = int(input("Istalgan butun son kiriting:"))
-#for n in range(2,11):
-#    if  (son % n == 0):
-#        print(f"{son} soni {n} songa qoldiqsiz bo'linadi va javob {son/n} chiqadi")
+son = int(input("Istalgan butun son kiriting:"))
+for n in range(2,11):
+    if  (son % n == 0):
+        print(f"{son} soni {n} songa qoldiqsiz bo'linadi va javob {son/n} chiqadi")
 
 
 #Xatolar bilan ishlash
